@@ -1,0 +1,329 @@
+@media(min-width:501px){
+
+  body{
+    margin: 0;
+    font-size: 20px;
+    font-family: monospace monospace 'Courier New', Courier, monospace;
+    background-image: url(photo2.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  #hannba,#batu{
+    display: none;
+  }
+  .saido{
+    color:rgba(246, 246, 246, 0.9); ;
+  }
+  .ore{
+    color: rgba(246, 246, 246, 0.9);
+    position: relative;
+    top: 240px;
+    left: 160px;
+  }
+  .saido a{
+    text-decoration:none;
+    color: aliceblue;
+  }
+  .ziko1{
+    position: relative;
+    top: 400px;
+    left: 160px;
+    border: 2px solid white;
+    border-radius: 5px  ;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .ziko2{
+    position: relative;
+    top: 420px;
+    left: 160px;
+    border: 2px solid white;
+    border-radius: 5px  ;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    user-select: none;
+  }
+  .ziko3{
+    position: relative;
+    top: 440px;
+    left: 160px;
+    border: 2px solid white;
+    border-radius: 5px  ;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    user-select: none;
+  }
+  #mask{
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  #modal{
+    background: rgb(104, 98, 98,0.8);
+    width: 900px;
+    height: 600px;
+    border-radius: 4px;
+    position: relative;
+    top: -100px;
+    left: 260px;
+    transition: 0.6s;
+    list-style: none;
+  }
+  #kotoba{
+    position: relative;
+    top: 200px;
+  }
+  #modal2{
+    background: rgb(104, 98, 98,0.8);
+    width: 900px;
+    height: 500px;
+    border-radius: 4px;
+    position: relative;
+    top: -700px;
+    left: 260px;
+    transition: 0.6s;
+    list-style: none;
+  }
+
+  #close{
+    position: relative;
+    top: 370px;
+    cursor: pointer;
+    width: 160px;
+    color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    padding: 3px 0;
+    margin: 10px auto 0;
+    user-select: none;
+  }
+  #close2{
+    position: relative;
+    top: 360px;
+    cursor: pointer;
+    width: 160px;
+    color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    padding: 3px 0;
+    margin: 16px auto 0;
+    user-select: none;
+  }
+  #kotoba,#kotoba2{
+    position: relative;
+    top: 200px;
+    left: 50px;
+    color: rgba(246, 246, 246, 0.6);
+    list-style: none;
+  }
+  #kotoba2 .slot {
+    list-style: none;
+    text-decoration: none;
+    color: rgba(246, 246, 246, 0.6);
+  }
+  #mask.hid{
+    display: none;
+  }
+  #modal.hid{
+    transform: translate(0,-900px);
+  }
+  #modal2.hid{
+    transform: translate(0,-2000px);
+  }
+  
+}
+/* パソコン用ーーーーーーーーーーーーーーーー */
+/* パソコン用ーーーーーーーーーーーーーーーー */
+
+
+@media(min-width:0px) and (max-width:500px)
+{
+   body{
+    margin: 0;
+    background-image: url(photo3.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment:fixed;
+    background-position: bottom;
+    background-size: cover;
+    width: 90px;
+    height: 100%;
+  }
+
+  .ore{
+    height: 67px;
+    width: 200px;
+    margin: 0;
+    position: relative;
+    top: 220px;
+    left: 40px;
+    color: rgba(246, 246, 246, 0.9);
+    font-size: 20px;
+  }
+  .ore2 {
+    margin: 0;
+    height: 580px;
+  } 
+  #mask{
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  #mask.hid{
+    display: none;
+  }
+  
+  #modal{
+    background: rgb(104, 98, 98,0.8);
+    width: 280px;
+    height: 480px;
+    margin: auto auto;
+    border-radius: 4px;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    transition: 0.6s;
+    color: #fff;
+    list-style: none;
+    color: rgba(246, 246, 246, 0.6);
+    padding: 20px;
+    transition: 0.25s;
+  }
+  #modal.hid{
+    transform: translate(0,-900px);
+  }
+  #close{
+    position: absolute;
+    bottom:10px;
+    right:  90px;
+    width: 140px;
+    border: 1px solid #ccc;;
+    border-radius: 4px;
+    text-align: center;
+    padding: 3px 0;
+  }
+  #modal2{
+    background: rgb(104, 98, 98,0.8);
+    width: 280px;
+    height: 480px;
+    border-radius: 4px;
+    position: relative;
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    transition: 0.25s;
+    list-style: none;
+    user-select: none;
+    color: rgba(246, 246, 246, 0.6);
+    padding: 20px;
+    ;
+  }
+  #kotoba2 a{
+    text-decoration: none;
+    color: rgba(246, 246, 246, 0.6);
+    line-height: 5;
+  }
+  #close2{
+    position: relative;
+    top: 300px;
+    cursor: pointer;
+    width: 160px;
+    color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    padding: 3px 0;
+    margin: 16px auto 0;
+    user-select: none;
+  }
+  #modal2.hid{
+    transform: translate(0,-2000px);
+  }
+  
+  .ziko1 a{
+    list-style: none;
+    text-decoration: none;
+  }
+  .hannba{
+    height: 60px;
+    font-size: 2px;
+    line-height: 1;
+    position: relative;
+    top: 30px;
+    left: 330px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid ;
+    text-align: center;
+    
+  }
+  #saido{
+    width: 120px;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    text-decoration: none;
+    color: blanchedalmond;
+    line-height: 5;
+    z-index: 2;
+  }
+  .saido a{
+    color: cornsilk ;
+  }
+  #saidoback{
+    /* display: none; */
+    background-color: black;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 80px;
+    z-index: 1;
+    transition: 0.3s;
+  }
+  #saidoback.kesu{
+    transform: translate(-900px,0px);
+  }
+  #batu{
+    color: cornsilk;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 50px;
+  }
+  .mask{
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  #mask.hid{
+    display: none;
+  }
+  
+  
+
+}
+
+
+
+
